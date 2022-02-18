@@ -1,13 +1,14 @@
 <web-app>
-    <display-name>Simple Servlet Application</display-name>
-    <servlet>
-        <servlet-name>simpleServlet</servlet-name>
-        <servlet-class>MyServlet</servlet-class>
-        <load-on-startup>2</load-on-startup>
-    </servlet>
+<!--    используется, если нет аннотации в Java class-->
+<!--    <display-name>Simple Servlet Application</display-name>-->
+<!--    <servlet>-->
+<!--        <servlet-name>simpleServlet</servlet-name>-->
+<!--        <servlet-class>MyServlet</servlet-class>-->
+<!--        <load-on-startup>2</load-on-startup>-->
+<!--    </servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>simpleServlet</servlet-name>
-        <url-pattern>/test</url-pattern>
-    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>simpleServlet</servlet-name>-->
+<!--        <url-pattern>/test</url-pattern>-->
+<!--    </servlet-mapping>-->
 </web-app>
